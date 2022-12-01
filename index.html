@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav-list -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item toggler">
+                <span class="button">
+                    <div class="menu-line"></div>
+                </span>
+                <span class="navbar-text second-button">Pomodoro Timer</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <img class="nav-image" src="img/icons8-time-50.png" alt=""><span class="navbar-text"></span>
+                    <span class="navbar-text">Stop Watch</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <img class="nav-image" src="img/icons8-goal-50.png" alt="">
+                    <span class="navbar-text">Daily Goal</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <img class="nav-image" src="img/icons8-cup-50.png" alt="">
+                    <span class="navbar-text">Break</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <img class="nav-image" src="img/icons8-timeline-week-50.png" alt="">
+                    <span class="navbar-text">Records</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <img class="nav-image" src="img/icons8-task-completed-50.png" alt="">
+                    <span class="navbar-text">Task</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- body -->
+    <section id="body">
+        <div class="container">
+            <div class="item">
+
+                <!-- box1 -->
+                <div class="box1" id="timer">
+                    <div class="box1-container">
+                        <div class="header">
+                            <h1>Ready, set, focus!</h1>
+                            <p>Achieve your goals and get more
+                                done with focus sessions.
+                            </p>
+                        </div>
+                        <div class="stop-watch">
+                            <div class="left">
+                                <div class="timer"></div>
+                                <div><p>mins</p></div>
+                            </div>
+                            <div class="stop_watch_buttons">
+                                <div class="up-button"><img src="img/icons8-chevron-right-50.png" alt=""></div>
+                                <div class="down-button"><img src="img/icons8-chevron-right-50 (1).png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="break-session">
+                            <div>You'll have 1 break.</div>
+                            <div>5 mins</div>
+                        </div>
+                        <div class="start-button">
+                            <span>Start your focus session</span>
+                        </div>
+                    </div>
+                    <div class="box1-overlay">
+                        <div class="progress-value"></div>
+                        <div class="overlay-button">
+                            <div class="stop-button">stop</div>
+                            <div class="pause-button">pause</div>
+                            <div class="continue-button">continue</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- box2 -->
+                <div class="box2">
+                    <div id="goal">
+                        <h4 class="heading">Daily Goal</h3>
+                        <div class="goal-content">
+                            <div class="time-goal">
+                                <div>4</div>
+                                <p>hours</p>
+                            </div>
+                            <div class="completed-hour">
+                                <span>Completed:</span>
+                                <span class="hour-complete">0</span>
+                                <span>hours</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="break">
+                        <h4 class="heading">Break</h4>
+                        <div class="caption">
+                            <p>
+                                Spend your break with the following
+                                social media platforms and your time 
+                                will start automaticaly
+                            </p>
+                        </div>
+                        <div class="break-buttons">
+                            <span><a href=""><img src="img/icons8-facebook-100.png" alt=""></a></span>
+                            <span><a href=""><img src="img/icons8-youtube-100.png" alt=""></a></span>
+                            <span><a href=""><img src="img/icons8-instagram-100.png" alt=""></a></span>
+                            <span><a href=""><img src="img/icons8-google-100.png" alt=""></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- box3 -->
+                <div class="box3">
+                    <div id="records">
+                        <h4 class="heading">Records</h4>
+                        <div class="title">
+                            <div><h4>Date</h4></div>
+                            <div><h4>Completed Hour</h4></div>
+                            <div><h4>Completed Task</h4></div>
+                        </div>
+                        <div class="record-output">
+                            <div class="record-output-item">
+                                <div><h5>11/12/22</h5></div>
+                                <div><h5>4/4</h5></div>
+                                <div><h5>5/5</h5></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- box4 -->
+                <div class="box4">
+                    <div id="task">
+                        <h4 class="heading">Task</h4> 
+                        <h4 class="title">Task to complete</h4>
+                        <div class="options">
+                             <div class="toggler-one"><h4 class="line">Task</h4></div>
+                             <div class="toggler-two"><h4>Completed</h4></div>
+                             <div><img src="img/icons8-plus-math-50.png" alt=""></div>
+                        </div>
+                        <div class="task-output">
+                            <div class="list1">
+                                <div class="text">
+                                    <p>
+                                        setTimeout
+                                        setInterval
+                                        callbacks
+                                        callback hell
+                                        promises
+                                        async and await
+                                        
+                                    </p>
+                                </div>
+                                <div class="list-button">
+                                    <div><img src="img/icons8-checkmark-30.png" alt=""></div>
+                                    <div><img src="img/icons8-remove-30.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-completed">
+                            complete
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+    <script src="app.js"></script>
+</html>
