@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Pomodoro</title>
 </head>
 <body>
     <!-- nav-list -->
@@ -133,7 +133,8 @@
                         <div class="title">
                             <div><h4>Date</h4></div>
                             <div><h4>Completed Hour</h4></div>
-                            <div><h4>Completed Task</h4></div>
+                            <div><h4>Completed Task:</h4></div>
+                            
                         </div>
                         <div class="record-output">
                             <div class="record-output-item">
@@ -149,33 +150,27 @@
                 <div class="box4">
                     <div id="task">
                         <h4 class="heading">Task</h4> 
-                        <h4 class="title">Task to complete</h4>
+                        <div class="title">Task to complete: <span class="totalTask"></span></div>
+                        
                         <div class="options">
                              <div class="toggler-one"><h4 class="line">Task</h4></div>
                              <div class="toggler-two"><h4>Completed</h4></div>
-                             <div><img src="img/icons8-plus-math-50.png" alt=""></div>
+                             <div class="toggler-three"><img src="img/icons8-plus-math-50.png" alt=""></div>
                         </div>
                         <div class="task-output">
-                            <div class="list1">
-                                <div class="text">
-                                    <p>
-                                        setTimeout
-                                        setInterval
-                                        callbacks
-                                        callback hell
-                                        promises
-                                        async and await
-                                        
-                                    </p>
-                                </div>
-                                <div class="list-button">
-                                    <div><img src="img/icons8-checkmark-30.png" alt=""></div>
-                                    <div><img src="img/icons8-remove-30.png" alt=""></div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="task-completed">
-                            complete
+                            
+                        </div>
+                        <div class="add-task">
+                            <div class="add-container">
+                                <div><textarea name="" id="text-input" cols="30" rows="10" placeholder="Input text here"></textarea></div>
+                                <div class="buttons">
+                                    <button class="saveTask">Save</button>
+                                    <button class="deleteTask">Delete</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
